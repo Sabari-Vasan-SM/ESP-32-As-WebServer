@@ -657,7 +657,7 @@ void setup() {
   Serial.begin(115200);
 
   // Start the ESP8266 in Access Point mode with custom SSID and password
-  WiFi.softAP("Sabari's WebServer (192.168.4.1)", "sabari");
+  WiFi.softAP(" ESP32_Hotspot (192.168.4.1)", "12345678");
 
   // Print the IP address assigned to the access point
   IPAddress IP = WiFi.softAPIP();
